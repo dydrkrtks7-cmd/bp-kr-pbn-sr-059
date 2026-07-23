@@ -1,199 +1,544 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>영화 미학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마곡 셔츠룸 위치 정보 — 위치 기반 선택 가이드와 비교 분석</title>
+<meta name="description" content="마곡 셔츠룸 위치 정보를 한눈에 비교하세요. 지역별 접근성, 주변 시설, 주차 편의성 등 위치 선택 기준을 분석해 드립니다.">
+<meta name="keywords" content="마곡 셔츠룸, 마곡 셔츠룸 위치, 마곡 셔츠룸 비교, 마곡 셔츠룸 가격, 마곡 셔츠룸 추천">
+<link rel="canonical" href="https://magok-shirts-note.pub-jongno-pro.xyz/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="마곡 셔츠룸 위치 정보 — 위치 기반 선택 가이드와 비교 분석">
+<meta property="og:description" content="마곡 셔츠룸 위치 정보를 한눈에 비교하세요. 지역별 접근성, 주변 시설, 주차 편의성 등 위치 선택 기준을 분석해 드립니다.">
+<meta property="og:url" content="https://magok-shirts-note.pub-jongno-pro.xyz/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="마곡 셔츠룸 위치 정보 — 위치 기반 선택 가이드와 비교 분석">
+<meta name="twitter:description" content="마곡 셔츠룸 위치 정보를 한눈에 비교하세요. 지역별 접근성, 주변 시설, 주차 편의성 등 위치 선택 기준을 분석해 드립니다.">
+<meta name="bpaas-design-system" content="editorial-apple">
+<meta name="bpaas-design-theme" content="kr-mono-chrome">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "마곡 셔츠룸 위치 정보가 왜 중요한가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "셔츠룸 위치는 접근성과 편의성을 결정합니다. 지하철역과의 거리, 주차장 유무, 주변 식당가 여부 등이 이용 경험에直接影响합니다. 특히 마곡은 대단지 아파트와 오피스텔이 밀집해 있어 도보 접근이 가능한지 확인하는 것이 필수적입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "마곡 내 셔츠룸 위치별 차이점은 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "마곡역 주변은 대중교통 접근이 용이하며 유동 인구가 많지만 비교적 붐빌 수 있습니다. 반대로 아파트 단지 인근은 조용하고 주차 편의성이 높을 수 있으나 택시 호출 시 위치 설명이 필요할 수 있습니다. 각 지역의 특성을 비교해야 합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "셔츠룸 선택 시 위치 외에 어떤 점을 확인해야 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "위치와 함께 주변 시설, 영업 시간, 내부 구조(룸 수, 층고), 주변 식당가의 다양성 등을 함께 고려해야 합니다. 특히 주차 공간의 실제 이용 가능 여부와 요금은 방문 전 반드시 확인해야 하는 핵심 항목입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "마곡 셔츠룸 위치 정보는 어디서 정확히 확인할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "각 업체 공식 사이트의 '오시는 길' 페이지가 가장 정확합니다. 네이버 지도나 카카오맵에서 '마곡 셔츠룸'으로 검색하면 실제 위치와 주변 정보를 비교할 수 있으며, 직접 문의를 통해 가장 최신 정보를 확인하는 것을 추천합니다."
+      }
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 60px;
-    }
-    .brand {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #ffffff;
-      text-decoration: none;
-      letter-spacing: -0.05em;
-    }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
-      transition: all 0.2s ease;
-    }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
-    }
-    .archive-card h3 {
-      font-size: 1.4rem;
-      font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
-    }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
-    }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
-    }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
-    }
-  </style>
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "마곡 셔츠룸 위치 정보",
+  "description": "마곡 셔츠룸 위치 정보를 한눈에 비교하세요. 지역별 접근성, 주변 시설, 주차 편의성 등 위치 선택 기준을 분석해 드립니다.",
+  "author": {
+    "@type": "Person",
+    "name": "지역 정보 리서처 김하진"
+  },
+  "url": "https://magok-shirts-note.pub-jongno-pro.xyz/",
+  "datePublished": "2023-10-27"
+}
+</script>
+<style>
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary: #111111;
+  --secondary: #ffffff;
+  --accent: #2563eb;
+  --container: 960px;
+  --padding: 72px;
+  --gap: 48px;
+  --section-gap: 120px;
+  --border: 2px solid var(--primary);
+  --border-thin: 1px solid var(--primary);
+}
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--primary);
+  background-color: var(--secondary);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--padding);
+}
+.random-nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--secondary);
+  border-bottom: var(--border);
+}
+.random-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+.random-logo {
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: var(--primary);
+  letter-spacing: -0.5px;
+}
+.random-nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.random-nav-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.random-nav-link:hover {
+  color: var(--accent);
+}
+.random-hamburger {
+  display: none;
+  background: none;
+  border: var(--border);
+  padding: 8px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.random-hamburger-line {
+  width: 24px;
+  height: 2px;
+  background: var(--primary);
+  position: relative;
+}
+.random-hamburger-line::before,
+.random-hamburger-line::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--primary);
+  left: 0;
+}
+.random-hamburger-line::before { top: -8px; }
+.random-hamburger-line::after { bottom: -8px; }
+.random-hero {
+  padding: 120px 0;
+  border-bottom: var(--border);
+}
+.random-hero-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--gap);
+  align-items: start;
+}
+.random-hero-title {
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.random-hero-desc {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #333;
+  border-left: 4px solid var(--accent);
+  padding-left: 24px;
+}
+.random-location-indicator {
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 16px;
+  border: var(--border);
+  text-align: left;
+  line-height: 1.8;
+  align-self: start;
+}
+.random-location-indicator span {
+  display: block;
+}
+.random-section {
+  padding: var(--section-gap) 0;
+}
+.random-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+  text-align: left;
+  letter-spacing: -1px;
+  border-bottom: 4px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 8px;
+}
+.random-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+}
+.random-comparison-card {
+  border: var(--border);
+  padding: 32px;
+}
+.random-comparison-card-header {
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: var(--border-thin);
+}
+.random-comparison-list {
+  list-style: none;
+}
+.random-comparison-item {
+  padding: 12px 0;
+  border-bottom: var(--border-thin);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+.random-comparison-item:last-child {
+  border-bottom: none;
+}
+.random-faq-section {
+  background: var(--primary);
+  color: var(--secondary);
+}
+.random-faq-section .random-section-title {
+  color: var(--secondary);
+  border-bottom-color: var(--secondary);
+}
+.random-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+}
+.random-faq-item {
+  border: 2px solid var(--secondary);
+  padding: 32px;
+}
+.random-faq-question {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.random-faq-answer {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.random-author-section {
+  padding: 96px 0;
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+.random-author-block {
+  max-width: 600px;
+}
+.random-author-name {
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.random-author-bio {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #444;
+}
+.random-footer {
+  border-top: var(--border);
+  padding: 48px 0;
+  margin-top: auto;
+}
+.random-footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.random-footer-text {
+  font-size: 0.875rem;
+  color: #666;
+}
+.random-footer-links {
+  display: flex;
+  gap: 24px;
+}
+.random-footer-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+.random-footer-link:hover {
+  color: var(--accent);
+}
+@media (max-width: 768px) {
+  :root {
+    --padding: 24px;
+    --section-gap: 72px;
+    --gap: 32px;
+  }
+  .random-nav-links {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    background: var(--secondary);
+    border-bottom: var(--border);
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+  }
+  .random-nav-links.active {
+    display: flex;
+  }
+  .random-hamburger {
+    display: flex;
+  }
+  .random-hero-content {
+    grid-template-columns: 1fr;
+  }
+  .random-hero-title {
+    font-size: 2.5rem;
+  }
+  .random-comparison-grid {
+    grid-template-columns: 1fr;
+  }
+  .random-faq-grid {
+    grid-template-columns: 1fr;
+  }
+  .random-footer-content {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+}
+</style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>영화 미학 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>영화 미학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h3>
-          <p>세계적인 영화 거장 안드레이 타르코프스키 감독이 고집했던 롱테이크 샷 기법은 단순히 기술적인 길이를 넘어 관객의 물리적 시간 감각을 정지시키고 인위적인 미장센 속 조형적 침묵을 체...</p>
-        </a>
-      
 
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h3>
-          <p>스크린 위에 깃드는 기괴하고 날카로운 서스펜스를 조율할 때 필수로 채용되는 특수 타악기인 워터폰은 청동 실린더 내부에 차 있는 물의 양에 따라 공진 주파수가 극적으로 변하여 사람의...</p>
-        </a>
-      
+<header class="random-nav-container">
+  <div class="container">
+    <nav class="random-nav-inner">
+      <a href="/" class="random-logo">마곡셔츠룸위치정보</a>
+      <ul class="random-nav-links" id="random-nav-list">
+        <li><a href="#selection" class="random-nav-link">선택 기준</a></li>
+        <li><a href="#comparison" class="random-nav-link">위치 비교</a></li>
+        <li><a href="#faq" class="random-nav-link">FAQ</a></li>
+      </ul>
+      <button class="random-hamburger" id="random-hamburger-btn" aria-label="메뉴 열기">
+        <div class="random-hamburger-line"></div>
+      </button>
+    </nav>
+  </div>
+</header>
 
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h3>
-          <p>완벽주의적인 시네아스트 스탠리 큐브릭이 애용했던 화면 정중앙의 1점 투시 수렴 대칭 구도는 관객의 시선을 강제로 가두어 인공적인 폐쇄 공포와 거역할 수 없는 심리적 억압 효과를 자...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 구글 상위노출 대행 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 구글 상위노출 대행 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
+<main>
+  <section class="random-hero">
+    <div class="container">
+      <div class="random-hero-content">
+        <div>
+          <h1 class="random-hero-title">위치,<br>어디서 만날까요</h1>
+          <p class="random-hero-desc">
+            마곡은 거대한 도시 개발지구입니다. 지도상의 점 하나가 실제 방문 경험을 완전히 바꿀 수 있습니다. 접근성, 편의성, 분위기—모두 위치에서 시작됩니다.
+          </p>
+        </div>
+        <div class="random-location-indicator">
+          <span>영역: 마곡</span>
+          <span>좌표: 37.5584° N, 126.8264° E</span>
+          <span>상태: 위치 분석 중</span>
+          <span>데이터: 2024.10</span>
         </div>
       </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+    </div>
+  </section>
+
+  <section class="random-section" id="selection">
+    <div class="container">
+      <h2 class="random-section-title">위치 선택 기준</h2>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px;">
+        <div>
+          <h3 style="font-family: monospace; font-size: 1.125rem; margin-bottom: 24px; padding-bottom: 12px; border-bottom: var(--border-thin);">01. 접근성</h3>
+          <p style="line-height: 1.7; font-size: 0.95rem;">
+            지하철역과의 도보 거리가 핵심입니다. 마곡역, 송정역, 코엑스역 중 어떤 역이 가장 가까운지, 몇 분 거리인지 실시간으로 확인해 보세요. 대중교통을 이용한다면 환승 횟수와 소요 시간까지 고려해야 합니다.
+          </p>
+        </div>
+        <div>
+          <h3 style="font-family: monospace; font-size: 1.125rem; margin-bottom: 24px; padding-bottom: 12px; border-bottom: var(--border-thin);">02. 주차 편의성</h3>
+          <p style="line-height: 1.7; font-size: 0.95rem;">
+            자가용을 이용할 경우 주차장 확보가 필수입니다. 유료/무료 여부, 주차 공간 수, 24시간 운영 여부를 반드시 확인하세요. 주말이나 저녁 시간대 주차 대기 시간이 길어질 수 있으니 예약 가능 여부도 중요합니다.
+          </p>
+        </div>
+        <div>
+          <h3 style="font-family: monospace; font-size: 1.125rem; margin-bottom: 24px; padding-bottom: 12px; border-bottom: var(--border-thin);">03. 주변 환경</h3>
+          <p style="line-height: 1.7; font-size: 0.95rem;">
+            방문 전후 식사나 차를 마실 곳이 있는지 확인하세요. 셔츠룸 밀집 지역은 식당가가 발달해 있을 수 있으나, 아파트 단지 인근은 상대적으로 편의시설이 적을 수 있습니다. 이동 동선을 미리 파악하면 편리합니다.
+          </p>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
+
+  <section class="random-section" id="comparison" style="background: #fafafa;">
+    <div class="container">
+      <h2 class="random-section-title">위치별 비교 분석</h2>
+      <div class="random-comparison-grid">
+        <div class="random-comparison-card">
+          <div class="random-comparison-card-header">마곡역 인근</div>
+          <ul class="random-comparison-list">
+            <li class="random-comparison-item">
+              <span>대중교통 접근</span>
+              <span style="font-weight: 700;">★★★★★</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>주차 편의성</span>
+              <span style="font-weight: 700;">★★★☆☆</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>주변 식당가</span>
+              <span style="font-weight: 700;">★★★★☆</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>유동 인구</span>
+              <span style="font-weight: 700;">많음</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>적합 대상</span>
+              <span style="font-weight: 700;">대중교통 이용자</span>
+            </li>
+          </ul>
+        </div>
+        <div class="random-comparison-card">
+          <div class="random-comparison-card-header">아파트 단지 인근</div>
+          <ul class="random-comparison-list">
+            <li class="random-comparison-item">
+              <span>대중교통 접근</span>
+              <span style="font-weight: 700;">★★★☆☆</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>주차 편의성</span>
+              <span style="font-weight: 700;">★★★★★</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>주변 식당가</span>
+              <span style="font-weight: 700;">★★☆☆☆</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>유동 인구</span>
+              <span style="font-weight: 700;">적음</span>
+            </li>
+            <li class="random-comparison-item">
+              <span>적합 대상</span>
+              <span style="font-weight: 700;">자가용 이용자</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="random-section random-faq-section" id="faq">
+    <div class="container">
+      <h2 class="random-section-title">자주 묻는 질문</h2>
+      <div class="random-faq-grid">
+        <div class="random-faq-item">
+          <div class="random-faq-question">마곡 셔츠룸 위치 정보가 왜 중요한가요?</div>
+          <div class="random-faq-answer">셔츠룸 위치는 접근성과 편의성을 결정합니다. 지하철역과의 거리, 주차장 유무, 주변 식당가 여부 등이 이용 경험에直接影响합니다. 특히 마곡은 대단지 아파트와 오피스텔이 밀집해 있어 도보 접근이 가능한지 확인하는 것이 필수적입니다.</div>
+        </div>
+        <div class="random-faq-item">
+          <div class="random-faq-question">마곡 내 셔츠룸 위치별 차이점은 무엇인가요?</div>
+          <div class="random-faq-answer">마곡역 주변은 대중교통 접근이 용이하며 유동 인구가 많지만 비교적 붐빌 수 있습니다. 반대로 아파트 단지 인근은 조용하고 주차 편의성이 높을 수 있으나 택시 호출 시 위치 설명이 필요할 수 있습니다. 각 지역의 특성을 비교해야 합니다.</div>
+        </div>
+        <div class="random-faq-item">
+          <div class="random-faq-question">셔츠룸 선택 시 위치 외에 어떤 점을 확인해야 하나요?</div>
+          <div class="random-faq-answer">위치와 함께 주변 시설, 영업 시간, 내부 구조(룸 수, 층고), 주변 식당가의 다양성 등을 함께 고려해야 합니다. 특히 주차 공간의 실제 이용 가능 여부와 요금은 방문 전 반드시 확인해야 하는 핵심 항목입니다.</div>
+        </div>
+        <div class="random-faq-item">
+          <div class="random-faq-question">마곡 셔츠룸 위치 정보는 어디서 정확히 확인할 수 있나요?</div>
+          <div class="random-faq-answer">각 업체 공식 사이트의 '오시는 길' 페이지가 가장 정확합니다. 네이버 지도나 카카오맵에서 '마곡 셔츠룸'으로 검색하면 실제 위치와 주변 정보를 비교할 수 있으며, 직접 문의를 통해 가장 최신 정보를 확인하는 것을 추천합니다.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="random-author-section">
+    <div class="container">
+      <div class="random-author-block">
+        <div class="random-author-name">지역 정보 리서처 김하진</div>
+        <p class="random-author-bio">서울 주요 상권의 위치 정보를 분석하고 정리해 온 로컬 가이드입니다. 실질적인 접근성과 편의성에 초점을 맞춰 정보를 제공합니다.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="random-footer">
+  <div class="container">
+    <div class="random-footer-content">
+      <div class="random-footer-text">© 2024 마곡셔츠룸위치정보. 모든 권리 보유.</div>
+      <div class="random-footer-links">
+        <a href="#selection" class="random-footer-link">이용약관</a>
+        <a href="#faq" class="random-footer-link">문의하기</a>
+      </div>
+    </div>
   </div>
+</footer>
+
+<script>
+document.getElementById('random-hamburger-btn').addEventListener('click', function() {
+  document.getElementById('random-nav-list').classList.toggle('active');
+});
+</script>
 </body>
 </html>
